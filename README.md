@@ -7,6 +7,14 @@ Hello! I'm a Computer Science B.S. at the University of Kansas State seeking use
 
 I'm especially passionate about working at the intersection of technology and other fields - in fact, I'm a big typography nerd, and I do freelance graphic design when I'm not writing code. I'm also passionate about supporting girls and women in STEM fields and am the Vice President of KU women in Computing.
 
+### Technical Highlights
+
+### Technologies (in order of proficiency)
+C#, HTML5/CSS3, Vue.js framework, C, Java, SQL, Python
+
+### Course Highlights
+Data Structures, Program Testing, Use and Implementation of Programming Algorithms, Programming Paradigms, Data Retrieval and Database Design
+
 ```markdown
 Syntax highlighted code block
 
