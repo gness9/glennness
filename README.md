@@ -1,3 +1,12 @@
+
+## Glenn Ness
+
+### Passionate CS student seeking software development internship.
+
+Hello! I'm a Computer Science B.S. at the University of Kansas State seeking user experience and front-end development internships for summer 2020.
+
+I'm especially passionate about working at the intersection of technology and other fields - in fact, I'm a big typography nerd, and I do freelance graphic design when I'm not writing code. I'm also passionate about supporting girls and women in STEM fields and am the Vice President of KU women in Computing.
+
 ```markdown
 Syntax highlighted code block
 
