@@ -15,6 +15,18 @@ C#, HTML5/CSS3, Vue.js framework, C, Java, SQL, Python
 ### Course Highlights
 Data Structures, Program Testing, Use and Implementation of Programming Algorithms, Programming Paradigms, Data Retrieval and Database Design
 
+### VMLY&R Internship
+Used Vue.js and CSS to contribute to user interface of client. Participated in multiple Agile workflow sprints alongside front-end developers to create more accessible user content.
+
+### Garmin IQ Program
+Developed new watch face for Garmin using their proprietary language Monkey C
+
+### KSU Game Jam
+Worked alongside a small team in Unity to develop assets for a new game in a span of twenty-four hours
+
+### Additional Experience
+Volunteer Tutor in College Algebra
+
 ```markdown
 Syntax highlighted code block
 
