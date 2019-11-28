@@ -9,10 +9,10 @@ I'm especially passionate about working at the intersection of technology and ot
 
 ### Technical Highlights
 
-### Technologies (in order of proficiency)
+#### Technologies (in order of proficiency)
 C#, HTML5/CSS3, Vue.js framework, C, Java, SQL, Python
 
-### Course Highlights
+#### Course Highlights
 Data Structures, Program Testing, Use and Implementation of Programming Algorithms, Programming Paradigms, Data Retrieval and Database Design
 
 ### VMLY&R Internship
