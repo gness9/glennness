@@ -1,34 +1,3 @@
-## Glenn Ness
-
-### Passionate CS student seeking software development internship.
-
-Hello! I'm a Computer Science B.S. at the University of Kansas State seeking user experience and front-end development internships for summer 2020.
-
-I'm especially passionate about working at the intersection of technology and other fields - in fact, I'm a big typography nerd, and I do freelance graphic design when I'm not writing code. I'm also passionate about supporting girls and women in STEM fields and am the Vice President of KU women in Computing
-
-### Technical Highlights
-
-#### Technologies (in order of proficiency)
-C#, HTML5/CSS3, Vue.js framework, C, Java, SQL, Python
-
-#### Course Highlights
-Data Structures, Program Testing, Use and Implementation of Programming Algorithms, Programming Paradigms, Data Retrieval and Database Design
-
-```markdown
-### VMLY&R Internship
-Used Vue.js and CSS to contribute to user interface of client. Participated in multiple Agile workflow sprints alongside front-end developers to create more accessible user content.
-
-### Garmin IQ Program
-Developed new watch face for Garmin using their proprietary language Monkey C
-
-### KSU Game Jam
-Worked alongside a small team in Unity to develop assets for a new game in a span of twenty-four hours
-```
-
-### Additional Experience
-Volunteer Tutor in College Algebra
-
-
 ```markdown
 Syntax highlighted code block
 
