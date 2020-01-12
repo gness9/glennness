@@ -1,0 +1,160 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  <script src="https://npmcdn.com/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue@2.6.10/dist/vue.js"></script>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if IE]>
+
+  <![endif]-->
+  <div id ="sidebar2">
+    <nav>
+      <div class="dropdown">
+        <a href="about.html" class="box3">About Us</a> &nbsp;
+        <div class="dropdown-content">
+          <a href="contact.html">Get Involved</a>
+          <a href="goals.html">Mission Goals</a>
+        </div>
+      </div>
+      <a href="donate.html" class="box3">Donate</a> &nbsp;
+      <a href="blog.html" class="box4">Blog</a> &nbsp;
+    </nav>
+  </div>
+  <header>
+    <h1><a href="index.html">Janstan Kids</a></h1>
+  </header>
+
+  <main id="extramain">
+
+    <div id="leftArrow">
+      <p class="carrotSize" @click="counter -= 1"> &#60; </p>
+    </div>
+    <div id="homesidebar">
+      <div id="exercise">
+        <p v-html="image">{{result}}</p>
+        <button @click="changePic">Show Alert</button>
+      </div>
+    </div>
+    <div id="rightArrow">
+      <p class="carrotSize" @click="counter += 1"> &#62; </p>
+    </div>
+
+  </main>
+
+  <nav id="box2">
+    <a href="index.html" class="box3">Home</a> &nbsp;
+    <a href="donate.html" class="box3">Donate</a> &nbsp;
+    <a href="about.html" class="box3">About Us</a> &nbsp;
+    <a href="blog.html" class="box4">Blog</a> &nbsp;
+  </nav>
+
+
+  <footer>
+
+    <small>
+      <i id="white">Copyright @ 2019 Janstan Kids</i>
+    </small>
+
+  </footer>
+
+  <!-- Add your site or application content here -->
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <script>
+
+    new Vue({
+      el: '#extramain',
+      data: {
+        image: '<img class="pictures"  src="img/TwilightTrio.jpg"  width="100%" height="100%" alt="Group Photo" title="Janstan Kids" />',
+        counter: 0
+      },
+      watch: {
+        image: function(){
+          var vm = this;
+          setTimeout(function() {
+            vm.value = changePhoto();
+          }, 5000);
+        }
+      },
+      computed: {
+        result(){
+          if(this.counter > 2)
+          {
+            this.counter = 0;
+          }
+          else if(this.counter < 0)
+          {
+            this.counter = 2;
+          }
+          switch(this.counter) {
+            case 0: {
+              this.image = '<img class="pictures"  src="img/TwilightTrio.jpg"  width="100%" height="100%" alt="Group Photo" title="Janstan Kids" />';
+              return this.counter;
+            }
+            case 1: {
+              this.image = '<img class="pictures"  src="img/Yennifer.jpg"  width="100%" height="100%" alt="Group Photo" title="Janstan Kids" />';
+              return this.image;
+            }
+            case 2: {
+              this.image = '<img class="pictures"  src="img/AquaNO.jpg"  width="100%" height="100%" alt="Group Photo" title="Janstan Kids" />';
+              return this.image;
+            }
+          }
+        }
+      },
+      methods: {
+        changePic: function(){
+          switch(this.image)
+          {
+            case '<img class="pictures"  src="img/TwilightTrio.jpg"  width="100%" height="100%" alt="Group Photo" title="Janstan Kids" />':
+            {
+              this.image = '<img class="pictures"  src="img/Yennifer.jpg"  width="100%" height="100%" alt="Group Photo" title="Janstan Kids" />';
+              return this.image;
+            }
+            case '<img class="pictures"  src="img/Yennifer.jpg"  width="100%" height="100%" alt="Group Photo" title="Janstan Kids" />':
+            {
+              this.image = '<img class="pictures"  src="img/AquaNO.jpg"  width="100%" height="100%" alt="Group Photo" title="Janstan Kids" />';
+              return this.image;
+            }
+            case '<img class="pictures"  src="img/AquaNO.jpg"  width="100%" height="100%" alt="Group Photo" title="Janstan Kids" />':
+            {
+              this.image = '<img class="pictures"  src="img/TwilightTrio.jpg"  width="100%" height="100%" alt="Group Photo" title="Janstan Kids" />';
+              return this.image;
+            }
+          }
+        },
+      }
+
+    })
+
+  </script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+</body>
+
+</html>
